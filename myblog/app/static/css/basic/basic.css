@@ -1,0 +1,185 @@
+/*
+-----------------------------------------------
+Blogger Template Style
+-----------------------------------------------
+Name           : Bootstrap Blogger Template
+Author         : Skyafar
+Author  URL    : http://www.skyafar.com/
+Date           : April, 2013
+-----------------------------------------------
+License:
+This free Blogger template is licensed under the Creative Commons Attribution 3.0 License, which permits both personal and commercial use.
+However, to satisfy the 'attribution' clause of the license, you are required to keep the footer links intact which provides due credit to its authors. For more specific details about the license, you may visit the URL below:
+http://creativecommons.org/licenses/by/3.0/
+----------------------------------------------- */
+#navbar-iframe{display:none;}*{padding:0;margin:0}
+body#layout #feature  {display:none;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+body, .body-fauxcolumn-outer {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+:focus {outline: 0;}
+ins  {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse; border-spacing: 1; }
+td, th {
+padding:5px;
+}
+body, .body-fauxcolumn-outer {background: #F3F3F3; font: normal 12px 'Open Sans', Trebuchet MS, Sans-serif; color: #666666;}
+body p {padding-bottom: 20px; line-height: 2em;}
+#container {overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+background-color: #fff;
+margin: 0 auto;
+color: #444;
+font-family: 'Open Sans',sans-serif;
+font-size: 14px;
+font-weight: normal;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;;}
+#content{width:712px;padding:20px 0px 10px 0px;float:left;display:inline; margin-top:-10px;}
+#content-wide {clear: both; width: 1060px; padding: 10px 0px;}
+#aside {display: inline; float: right; width: 336px; color: #ccc; padding: 10px 0px;}
+#footer {clear: both; overflow: hidden; background: #dfdfdf; font-size: 12px;}
+.shadow {}
+.radius {-webkit-border-radius: 5px; -o-border-radius: 5px; -moz-border-radius:5px; border-radius: 5px;}
+a {color:#464646; text-decoration: none;}
+a:hover {color: #333;}
+#header-wrapper {padding: 20px 0;}
+#header {margin-top:-15px; float:left; }
+#header h1 {
+color:#666666;
+text-shadow:2px 2px 2px #FFFFFF;
+letter-spacing:-2px;
+}
+#header a {
+text-decoration:none;
+color:#666666;
+}
+#header a:hover {
+text-decoration:none;
+color:#666666;
+}
+#header .description {
+margin:-3px 5px 5px;
+line-height: 1.4em;
+color: #888888;
+font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+}
+.date-header{display:none;}
+.post {padding: 10px;
+color: #666666;
+overflow: hidden;
+font-family:  'Open Sans', sans-serif;
+line-height: 2em;
+margin-bottom: 10px;
+margin: 10px;
+}
+.post-outer{
+background: #fff;
+border: 1px solid #e3e3e3;
+font-family:  'Open Sans', sans-serif;
+line-height: 2em;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin-bottom: 10px;
+}
+.post .post-text {padding-bottom: 5px; clear: both; overflow: hidden;}
+.post h2.post-title { font-weight: bold;font-family: 'Open Sans', sans-serif;letter-spacing:-1px;}
+.post h2 a { font-weight: bold;font-family: 'Open Sans', sans-serif;color: #353737; letter-spacing:-1px;}
+.post h2 a:hover {color: #666;text-decoration: none;}
+.post ul.post-meta {color: #6b6969; clear: both; border-top: 1px solid #222020; border-bottom: 1px solid #222020; overflow: hidden; font-size: 12px; font-style: italic; padding: 5px 0px; list-style: none;}
+.post ul.post-meta li {padding-right: 20px; float: left;}
+.post ul.post-meta a {color: #0b6e69;}
+.post .post-comment {display: inline; background: url('http://1.bp.blogspot.com/_MkGBVwDEF84/TGedevmtX_I/AAAAAAAAEZY/I5fmryAKyP8/s1600/post_comment.jpg') no-repeat center; width: 33px; text-align: center; padding: 5px 0px 10px 0px; margin-top: 10px; float: right;}
+.post h2, .post h3 {padding: 10px 0px; font-weight: normal; color: #666;}
+.post h4, .post h5, .post h6 {padding: 10px 0px; font-size: 14px; font-weight: normal; color: #666;}
+.post blockquote {display: block; margin: 20px; padding: 0px 30px;) no-repeat top left; font-style: italic; color: #999;}
+.left{padding:20px 25px 0px 0px;width:300px;float:right;}
+.sidebar h2{padding: 10px;
+color: #222222;
+font-family: 'Open Sans',sans-serif;
+font-size: 16px;
+font-weight: bold;
+line-height: 1.2em;
+margin-bottom: 6px;
+text-transform: uppercase;
+border-bottom: 1px solid #D3D3D3;
+}
+.sidebar .widget{font-size: 12px;
+color: #808080;
+margin: 0px 0px 10px 0px;
+padding-bottom: 10px;
+overflow: hidden;
+font-family: Verdana, 'Open Sans', sans-serif;}
+.sidebar .widget-content {padding:10px;margin:0;font-size:12px;color:#808080;}
+.sidebar ul {list-style-type: none;margin: 0 ;padding: 0;font-family: Verdana, 'Open Sans', sans-serif;}
+.sidebar ul a {color:#333;}
+.sidebar ul a:hover {color:#666666;}
+.sidebar li{list-style-type: none;margin: 0 ;padding: 0;}
+.sidebar ul li {height:100%;line-height:22px;float: left; clear: left;
+list-style-type: none;overflow:hidden;color:#808080;}
+.sidebar ul li  {text-decoration: none;padding: 0px 0px 0px 10px;display:block;
+border-bottom:1px solid #f9f9f9;}
+.sidebar a:link {color:#666666;}
+.sidebar a:hover {color: #D14F00;}
+/* COMMENT */
+#comments{margin:10px;}
+#comments h4 {font-size:16px;font-family:'Open Sans' sans-serif;color:#fff;text-shadow:-1px -1px 0px #858585;font-weight:bold;
+padding:10px 10px ; padding-left:20px; margin-top:10px;background:#A0A0A0;}
+#comments-block {line-height:1.6em;margin:1em 0 1.5em;color:#7F7D77;}
+#comments-block .comment-author {background:#dfdfdf none repeat scroll 0 0;border:1px solid #eaeaea;margin:0.5em 0;padding-bottom:4px;padding-left:8px;padding-top:4px;font-weight:bold;}
+#comments-block .comment-body {background:#fff; border-left:1px solid #e3e3e3;border-right:1px solid #e3e3e3;margin-top:-8px;padding-left:10px;padding-top:10px;}
+#comments-block .comment-footer {background:#fff;border-bottom:1px solid #e3e3e3;border-left:1px solid #e3e3e3;border-right:1px solid #e3e3e3;font-size:11px;line-height:1.4em;margin:-0.25em 0 2em;padding-bottom:5px;padding-left:10px;text-transform:none;}
+#comments-block .comment-body p {margin:0;padding-bottom:15px;}
+#comment-holder{padding: 10px 15px;}
+.comments .comment-block, .comments .comment-thread.inline-thread .comment {
+border: 1px solid #ddd;
+background: #f9f9f9;
+padding: 10px;
+}
+#comments h4, .comments .comment-header, .comments .comment-thread.inline-thread .comment {
+position: relative;
+}
+.comments .comments-content .icon.blog-author {
+position: absolute;
+top: -12px;
+right: -12px;
+margin: 0;
+background-image: url(http://lh6.ggpht.com/-GDMurKK2tec/T5JCD6hoKoI/AAAAAAAABAc/COHOItBlFWk/author.png);
+width: 36px;
+height: 36px;
+}
+.post-comment-link{float:right;}
+.comments .comment-replybox-thread{margin-top: 5px;}
+.comment-form{max-width:100%;}
+/* Feeds*/
+.blog-feeds{display:none;}
+/* IMAGES */
+img.centered {display: block; margin: auto;}
+img.alignright {display: inline; margin: 0px 0px 10px 20px;}
+img.alignleft {display: inline; margin: 0px 20px 10px 0px;}
+.alignleft {float: left;}
+.alignright {float: right;}
+.post-footer-line-1{display:none;}
+#comments-block .avatar-image-container img {
+background: #fff url(http://3.bp.blogspot.com/-UMSMHaOBzQg/To2XKFseUSI/AAAAAAAACVU/vlvJki_9vqA/s1600/gravatar.png) no-repeat left top;
+width:32px;
+height:32px
+}
+p.footer-link{
+clear: both;
+text-align: center;
+font-size: 11px;
+padding: 12px;
+overflow: hidden;
+color: #F9F9F9;
+background: #232627;
+line-height: 18px;
+}
+.post-header{padding:10px 0;}
