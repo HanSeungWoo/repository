@@ -11,3 +11,7 @@ def index():
 @app.route('/detail')
 def detail():
     return render_template("/front/main/detail.html")
+
+@app.route('/search')
+def search():
+    return render_template("/front/main/search.html")
