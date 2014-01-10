@@ -1,0 +1,88 @@
+{%extends "/layout/admin/base.html"%}
+{%block content%}
+<!--Content Start -->
+<form id="frm" name="frm">
+	<h5>▶ Member > List</h5>
+<!-- 		{{a}} -->
+	{% for entry in entries%}
+		{{entry.memberId}} {{entry.password}}
+	{% endfor%}
+<!-- 	<div class="navbar"> -->
+<!-- 		<div class="navbar-inner"> -->
+<!-- 			<ul class="nav pull-left"> -->
+<!-- 				<li> -->
+<!-- 					<a><strong>사용가능여부:</strong> </a> -->
+<!-- 				</li> -->
+<!-- 				<li style="margin-right:10px"> -->
+<!-- 					<div> -->
+<!-- 						<select id="use_flag" name="use_flag" title="검색조건 선택" class="input-small" style="width:100px;"> -->
+<!-- 							<option value="ALL">전체</option> -->
+<!-- 							<option value="Y">사용</option> -->
+<!-- 							<option value="N">정지</option> -->
+<!-- 						</select> -->
+<!-- 					</div> -->
+<!-- 				</li> -->
+<!-- 				<li> -->
+<!-- 					<a><strong>최종권한자 여부:</strong> </a> -->
+<!-- 				</li> -->
+<!-- 				<li style="margin-right:10px"> -->
+<!-- 					<div> -->
+<!-- 						<select id="auth_flag" name="auth_flag" title="검색조건 선택" class="input-small" style="width:100px;"> -->
+<!-- 							<option value="ALL">전체</option> -->
+<!-- 							<option value="Y">사용</option> -->
+<!-- 							<option value="N">정지</option> -->
+<!-- 						</select> -->
+<!-- 					</div> -->
+<!-- 				</li> -->
+<!-- 			</ul>	 -->
+<!-- 			<ul class="nav pull-right"> -->
+<!-- 				<li> -->
+<!-- 					<select id="searchCondition" name="searchCondition" title="검색조건 선택" class="input-small" style="width:100px;"> -->
+<!-- 						<option value="USERID">아이디</option> -->
+<!-- 						<option value="EMAIL">이메일</option> -->
+<!-- 						<option value="PHONENUMBER">전화번호</option> -->
+<!-- 					</select> -->
+<!-- 				</li> -->
+<!-- 				<li> -->
+<!-- 					<div class="input-append"> -->
+<!-- 						<input type="text" class="input-medium" id="searchKeyword" name="searchKeyword" onkeyup="if(event.keyCode==13) goSearch();" value="" title="검색어 입력"> -->
+<!-- 						<button id="searchBtn" type="button" class="btn">검색</button> -->
+<!-- 					</div> -->
+<!-- 				</li> -->
+<!-- 				<li style="margin-left: 50px;"> -->
+<!-- 					<button id="btn_newAdmin" type="button" class="btn btn-success">신규등록</button> -->
+<!-- 				</li> -->
+<!-- 			</ul> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+
+	<table class="table table-striped table-bordered">
+		<tr>
+			<th>번호</th>
+			<th>회원아이디</th>
+			<th>이메일</th>
+			<th>권한</th>
+			<th>상태</th>
+			<th>가입날짜</th>
+			<th>마지막로그인</th>
+			<th>수정</th>
+		</tr>
+		<tbody id="article_list">
+			<tr>
+				<td>1</td>
+				<td>DEVS</td>
+				<td>seungwoo@neut.co.kr</td>
+				<td>사용자</td>
+				<td>활성</td>
+				<td>2013.04.14</td>
+				<td>2013.04.14</td>
+				<td><button type="button" class="btn" id="btn_updateBtn">수정</button></td>	 
+			</tr>
+			<tr>
+				<td colspan="11"><center>목록이 존재하지 않습니다.<center></td>
+			</tr>
+	</table>
+</form>
+<!--Content End -->
+
+{%endblock%}
