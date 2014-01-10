@@ -1,10 +1,10 @@
 @font-face {
 font-family:'NanumGothicWeb';
-src:url('/static/fonts/NanumGothicCompact.eot');
-src:local("��),
-	url('/static/fonts/NanumGothicCompact.eot?#iefix') format('embedded-opentype'),
-	url('/static/fonts/NanumGothicCompact.woff') format('woff'),
-	url('/static/fonts/NanumGothicCompact.ttf') format('truetype');
+src:url('/static/font/NanumGothicCompact.eot');
+src:local("☺"),
+	url('/static/font/NanumGothicCompact.eot?#iefix') format('embedded-opentype'),
+	url('/static/font/NanumGothicCompact.woff') format('woff'),
+	url('/static/font/NanumGothicCompact.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
